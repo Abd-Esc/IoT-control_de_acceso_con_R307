@@ -731,7 +731,7 @@ RespuestaBackend consultarBackendPorHuella(
   // "nfc_uid": 1
 
   String identificadorHuella =
-    String(huellaId);
+    "20:26:A" + String(huellaId);
 
   requestDoc["nfc_uid"] =
     identificadorHuella;
